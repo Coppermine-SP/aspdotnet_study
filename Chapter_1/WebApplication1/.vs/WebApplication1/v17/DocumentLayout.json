@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|c:\\users\\nexen\\onedrive\\\uBB38\uC11C\\github\\aspdotnet_study\\chapter_1\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|c:\\users\\nexen\\onedrive\\\uBB38\uC11C\\github\\aspdotnet_study\\chapter_1\\webapplication1\\webapplication1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|c:\\users\\nexen\\onedrive\\\uBB38\uC11C\\github\\aspdotnet_study\\chapter_1\\webapplication1\\webapplication1\\views\\myinfo\\welcome.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\myinfo\\welcome.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|c:\\users\\nexen\\onedrive\\\uBB38\uC11C\\github\\aspdotnet_study\\chapter_1\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|c:\\users\\nexen\\onedrive\\\uBB38\uC11C\\github\\aspdotnet_study\\chapter_1\\webapplication1\\webapplication1\\views\\myinfo\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\myinfo\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|c:\\users\\nexen\\onedrive\\\uBB38\uC11C\\github\\aspdotnet_study\\chapter_1\\webapplication1\\webapplication1\\views\\myinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\myinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|c:\\users\\nexen\\onedrive\\\uBB38\uC11C\\github\\aspdotnet_study\\chapter_1\\webapplication1\\webapplication1\\controllers\\myinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\myinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|c:\\users\\nexen\\onedrive\\\uBB38\uC11C\\github\\aspdotnet_study\\chapter_1\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|c:\\users\\nexen\\onedrive\\\uBB38\uC11C\\github\\aspdotnet_study\\chapter_1\\webapplication1\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|c:\\users\\nexen\\onedrive\\\uBB38\uC11C\\github\\aspdotnet_study\\chapter_1\\webapplication1\\webapplication1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|c:\\users\\nexen\\onedrive\\\uBB38\uC11C\\github\\aspdotnet_study\\chapter_1\\webapplication1\\webapplication1\\webapplication1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{66AF5AEE-460F-4275-9077-8625218A298A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WebApplication1",
+              "DocumentMoniker": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
+              "ToolTip": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-24T15:56:22.7Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Welcome.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\Myinfo\\Welcome.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Myinfo\\Welcome.cshtml.cs",
+              "ToolTip": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\Myinfo\\Welcome.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Views\\Myinfo\\Welcome.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T05:57:03.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T06:10:02.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:09:42.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T06:09:38.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T06:09:37.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T05:58:49.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T06:10:19.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Welcome.cshtml",
+              "DocumentMoniker": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\Myinfo\\Welcome.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Myinfo\\Welcome.cshtml",
+              "ToolTip": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\Myinfo\\Welcome.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Myinfo\\Welcome.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T05:54:13.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\Myinfo\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Myinfo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Views\\Myinfo\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Myinfo\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T05:34:10.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyinfoController.cs",
+              "DocumentMoniker": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Controllers\\MyinfoController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\MyinfoController.cs",
+              "ToolTip": "C:\\Users\\nexen\\OneDrive\\\uBB38\uC11C\\GitHub\\aspdotnet_study\\Chapter_1\\WebApplication1\\WebApplication1\\Controllers\\MyinfoController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\MyinfoController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T16:03:55.41Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
