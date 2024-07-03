@@ -1,0 +1,57 @@
+@model IEnumerable<WebApplication1.Models.Student>
+
+@{
+    ViewData["Title"] = "학생 리스트";
+}
+
+<h2>학생 리스트</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            이름
+        </th>
+        <th>
+            나이
+        </th>
+        <th>
+            키
+        </th>
+        <th>
+            성별
+        </th>
+        <th>
+            대학교
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Id
+            </td>
+            <td>
+                @item.Age
+            </td>
+            <td>
+                @item.Height
+            </td>
+            <td>
+                @(item.Gender == 0 ? "남성" : "여성")
+            </td>
+            <td>
+                @item.UniversityName
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Input")" class="btn btn-primary">새 학생 추가</a>
