@@ -2,6 +2,8 @@
 
 @{
     ViewData["Title"] = "학생 리스트";
+    int totalPages = ViewBag.TotalPages;
+    int currentPage = ViewBag.CurrentPage;
 }
 
 <h2>학생 리스트</h2>
@@ -28,11 +30,11 @@
     </tr>
     </thead>
     <tbody>
-    @foreach (var item in Model)
+        @foreach (var item in Model)
     {
         <tr>
             <td>
-                @item.Id
+                @item.Name
             </td>
             <td>
                 @item.Age
@@ -52,6 +54,34 @@
         </tr>
     }
     </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="6">
+                <ul class="pagination justify-content-center">
+                    @if (currentPage > 1)
+                        {
+                            <li class="page-item">
+                                <a class="page-link" asp-action="Index" asp-route-page="@(currentPage - 1)">이전</a>
+                            </li>
+                        }
+
+                    @for (int i = 1; i <= totalPages; i++)
+                    {
+                        <li class="page-item @(i == currentPage ? "active" : "")">
+                            <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+                        </li>
+                    }
+
+                    @if (currentPage < totalPages)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" asp-action="Index" asp-route-page="@(currentPage + 1)">다음</a>
+                        </li>
+                    }
+                </ul>
+            </td>
+        </tr>
+    </tfoot>
 </table>
 
 <a href="@Url.Action("Input")" class="btn btn-primary">새 학생 추가</a>

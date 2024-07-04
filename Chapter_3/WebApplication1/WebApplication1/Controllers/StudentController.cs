@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
-using System.Threading.Tasks;
 using WebApplication1.Data;
 using WebApplication1.Models;
 
@@ -16,9 +15,18 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Student/Index
-        public IActionResult Index()
+        public IActionResult Index(int page = 1, int pageSize = 20)
         {
-            var students = _context.Students.ToList();
+            var students = _context.Students
+            .OrderBy(x => x.Id)
+            .Skip((page - 1) * pageSize)
+            .Take(pageSize)
+            .ToList();
+
+            int totalStudents = _context.Students.Count();
+            ViewBag.TotalPages = (int)Math.Ceiling((double)totalStudents / pageSize);
+            ViewBag.CurrentPage = page;
+
             return View(students);
         }
 
