@@ -31,3 +31,23 @@
 >- SignalR
 >- 중급 수준의 HTML, CSS, JS
 >- Git 형상 관리 이론
+
+## 진행 상황
+- **Chapter 1** - ✅
+  
+  Overview of Microsoft ASP.NET and EF Core
+- **Chapter 2** - ✅
+  
+  Basics of MVC Architecture and EF Core
+- **Chapter 3** - ✅
+
+  Dependency Injection and Thread-Safety, HTTP Fundamentals, AntiForgeryToken
+- **Chatper 4** - ✈️
+
+  Mid-term Project
+- **Chapter 5**
+
+  HTTP Session and cookies, Authorization
+- **Chapter 6**
+
+  EF Core Complex Query and Join, Basics of SQL Performance Tuning
