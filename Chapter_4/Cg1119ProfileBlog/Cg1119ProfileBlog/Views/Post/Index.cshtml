@@ -1,0 +1,58 @@
+﻿@model Cg1119ProfileBlog.Models.PostsViewModel;
+
+@{
+     ViewData["Title"] = "cg1119의 블로그에 오신 것을 환영합니다.";
+     int totalPages = @Model.TotalPages;
+     int currentPage = @Model.CurrentPage;
+ }
+ 
+ <h2>Post</h2>
+ 
+ <table class="table">
+     <thead>
+     <tr>
+         <th>제목</th>
+         <th>작성 일자</th>
+     </tr>
+     </thead>
+     <tbody>
+      @foreach (var post in Model.Posts)
+     {
+     <tr>
+     <td><a asp-action="Detail" asp-route-id="@post.Id">@post.Title</a></td>
+         <td>@post.CreatedAt?.ToString("yyyy-MM-dd")</td>
+
+     </tr>
+     }
+     </tbody>
+     <tfoot>
+         <tr>
+             <td colspan="6">
+                 <ul class="pagination justify-content-center">
+                     @if (currentPage > 1)
+                         {
+                             <li class="page-item">
+                                 <a class="page-link" asp-action="Index" asp-route-page="@(currentPage - 1)">이전</a>
+                             </li>
+                         }
+ 
+                     @for (int i = 1; i <= totalPages; i++)
+                     {
+                         <li class="page-item @(i == currentPage ? "active" : "")">
+                             <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+                         </li>
+                     }
+ 
+                     @if (currentPage < totalPages)
+                     {
+                         <li class="page-item">
+                             <a class="page-link" asp-action="Index" asp-route-page="@(currentPage + 1)">다음</a>
+                         </li>
+                     }
+                 </ul>
+             </td>
+         </tr>
+     </tfoot>
+ </table>
+ 
+ <a href="@Url.Action("AddPost")" class="btn btn-primary">새글 추가</a>

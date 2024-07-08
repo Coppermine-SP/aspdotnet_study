@@ -1,0 +1,31 @@
+﻿@model Cg1119ProfileBlog.Models.HomeViewModel;
+
+@{
+    ViewData["Title"] = "cg1119의 블로그에 오신 것을 환영합니다.";
+}
+
+<div class="text-center">
+    <h1 class="display-4">어서오세요</h1>
+    <p>cg1119의 웹사이트에 오신 것을 환영합니다.</p>
+</div>
+<div class="">
+    <h2>자기소개</h2>
+    <div>
+        <ul>
+            <li>이름 : 이동민</li>
+            <li>소속 : 국립창원대학교 정보통신공학과</li>
+            <li>관심 분야 : 코딩, 음악</li>
+        </ul>
+    </div>
+</div>
+<div>
+    <h2>최근 포스트</h2>
+    @foreach (var post in @Model.RecentPosts)
+    {
+        <div>
+            <p>@post.Title</p>
+            <p>작성일 :@post.CreatedAt?.ToString("yyyy-MM-dd")</p>
+            <div>@post.Contents</div>
+        </div>
+    }
+</div>
