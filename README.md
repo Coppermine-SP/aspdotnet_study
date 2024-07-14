@@ -1,5 +1,5 @@
 # Microsoft ASP.NET 실습 과제
-<img src="https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=blazor&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"> <img src="https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=blazor&logoColor=white">
 
 
 이 과제는 귀하의 Microsoft ASP.NET 실무 능력을 키우고 증명하기 위해 준비되었습니다.
@@ -44,10 +44,13 @@
   Dependency Injection and Thread-Safety, HTTP Fundamentals, AntiForgeryToken
 - **Chatper 4** - ✈️
 
-  Mid-term Project
+  Mid-term Project  
 - **Chapter 5**
+  
+  Basics of Docker and Deployment ASP.NET Project via Docker
+- **Chapter 6**
 
   HTTP Session and cookies, Authorization
-- **Chapter 6**
+- **Chapter 7**
 
   EF Core Complex Query and Join, Basics of SQL Performance Tuning
