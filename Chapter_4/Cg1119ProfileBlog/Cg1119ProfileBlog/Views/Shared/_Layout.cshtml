@@ -22,7 +22,11 @@
                             <a class="nav-link" asp-area="" asp-controller="Post" asp-action="Index">Post</a>
                         </li>
                     </ul>
-                    <button id="modeChange" class="btn btn-secondary ml-auto">다크모드</button>
+                    <div>
+                        <a id="login" class="btn btn-secondary" href="/Account/Login">로그인</a>
+                        <a class="btn btn-secondary" onclick="logout()">로그아웃</a>
+                        <button id="themeChange" class="btn btn-secondary ml-auto">다크모드</button>
+                    </div>
                 </div>
             </div>
         </nav>
