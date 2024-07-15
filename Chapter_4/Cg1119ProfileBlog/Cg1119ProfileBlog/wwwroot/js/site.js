@@ -29,8 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// 로그인, 아웃 버튼
+// 로그아웃 버튼
 
-function logout() {
-    
-}
+document.getElementById('logoutButton').addEventListener('click', function (event) {
+    event.preventDefault();
+    document.getElementById('logout').submit();
+});

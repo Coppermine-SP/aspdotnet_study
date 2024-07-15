@@ -1,5 +1,6 @@
 ﻿using Cg1119ProfileBlog.Data;
 using Cg1119ProfileBlog.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cg1119ProfileBlog.Controllers
@@ -46,7 +47,7 @@ namespace Cg1119ProfileBlog.Controllers
             return View(posts);
         }
 
-        [HttpGet]
+        [Authorize]
         public IActionResult AddPost()
         {
             return View();

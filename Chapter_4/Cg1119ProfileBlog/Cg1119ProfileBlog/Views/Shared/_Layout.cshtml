@@ -23,9 +23,18 @@
                         </li>
                     </ul>
                     <div>
-                        <a id="login" class="btn btn-secondary" href="/Account/Login">로그인</a>
-                        <a class="btn btn-secondary" onclick="logout()">로그아웃</a>
-                        <button id="themeChange" class="btn btn-secondary ml-auto">다크모드</button>
+                        @if (!Context.User.Identity.IsAuthenticated)
+                        {
+                            <a id="login" class="btn btn-secondary text-white" href="/Account/Login">로그인</a>
+                            <button id="themeChange" class="btn btn-secondary ml-auto">다크모드</button>
+                        }
+                        else
+                        {
+                            <form id="logout" asp-controller="Account" asp-action="Logout" method="post">
+                                <button id="logoutButton" class="btn btn-secondary text-white ml-auto">로그아웃</button>
+                                <button id="themeChange" class="btn btn-secondary ml-auto">다크모드</button
+                            </form>
+                        }
                     </div>
                 </div>
             </div>

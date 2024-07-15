@@ -1,6 +1,7 @@
 using Cg1119ProfileBlog.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
@@ -37,9 +38,6 @@ public class AccountController : Controller
 
             HttpContext.Session.SetString("id", id);
             
-            // 로그인 성공여부
-            TempData["LoginSuccess"] = true;
-            
             return RedirectToAction("Index", "Home");
         }
 
@@ -52,6 +50,6 @@ public class AccountController : Controller
     {
         await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
         HttpContext.Session.Clear();
-        return RedirectToAction("Login", "Account");
+        return RedirectToAction("Index", "Home");
     }
 }
