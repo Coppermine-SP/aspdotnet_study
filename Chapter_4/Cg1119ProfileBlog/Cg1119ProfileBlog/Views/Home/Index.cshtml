@@ -11,17 +11,20 @@
 <div class="">
     <h2>자기소개</h2>
     <div>
-        <ul>
-            <li>이름 : 이동민</li>
-            <li>소속 : 국립창원대학교 정보통신공학과</li>
-            <li>관심 분야 : 코딩, 음악</li>
+        <img src="~/img/download.jpg">
+        <ul class="list-group">
+            <li class="list-group-item">이름 : 이동민</li>
+            <li class="list-group-item">소속 : 국립창원대학교 정보통신공학과</li>
+            <li class="list-group-item">관심 분야 : 코딩, 음악</li>
         </ul>
     </div>
 </div>
+<hr>
 <div>
     <h2>최근 포스트</h2>
     @foreach (var post in @Model.RecentPosts)
     {
+        <hr>
         <div>
             <p>@post.Title</p>
             <p>작성일 :@post.CreatedAt?.ToString("yyyy-MM-dd")</p>
