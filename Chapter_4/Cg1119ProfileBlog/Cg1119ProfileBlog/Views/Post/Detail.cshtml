@@ -3,7 +3,7 @@
 <div>
     <h1 class="mb-5">@Model.Title</h1>
     <div class="mb-5">작성일 : @Model.CreatedAt?.ToString("yyyy년 MM월 dd일")</div>
-    <div>@Model.Contents</div>
+    <div id="contents">@Model.Contents</div>
 </div>
 <div>
     @if (Context.User.Identity.IsAuthenticated)
