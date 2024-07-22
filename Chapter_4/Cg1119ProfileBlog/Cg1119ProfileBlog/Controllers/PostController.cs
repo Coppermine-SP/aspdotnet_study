@@ -55,7 +55,7 @@ namespace Cg1119ProfileBlog.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult AddPost(Post model)
+        public IActionResult AddPost(int id, Post model)
         {
             if (ModelState.IsValid)
             {
@@ -73,7 +73,40 @@ namespace Cg1119ProfileBlog.Controllers
             }
 
             return RedirectToAction("Index");
+        }
+        // GET : Post/EditPost
+        public IActionResult EditPost(int id)
+        {
+            var post = _context.Posts.FirstOrDefault(s => s.Id == id);
+            if (post == null)
+            {
+                return NotFound();
+            }
+            return View(post);
+        }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult EditPost(int id, Post model)
+        {
+            if (ModelState.IsValid)
+            {
+                var post = _context.Posts.FirstOrDefault(s => s.Id == id);
+                if (post == null)
+                {
+                    return NotFound();
+                }
+
+                post.Title = model.Title;
+                post.Contents = model.Contents;
+
+                _context.Posts.Update(post);
+                _context.SaveChanges();
+
+                return RedirectToAction(nameof(Detail), new {id = post.Id});
+            }
+
+            return View(model);
         }
     }
 }

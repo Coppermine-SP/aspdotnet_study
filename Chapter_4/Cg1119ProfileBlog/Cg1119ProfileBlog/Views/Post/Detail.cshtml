@@ -5,3 +5,9 @@
     <div class="ml-auto">@Model.CreatedAt?.ToString("yyyy-MM-dd HH:mm:ss")</div>
     <p>@Model.Contents</p>
 </div>
+<div>
+    @if (Context.User.Identity.IsAuthenticated)
+    {
+        <a href="/Post/EditPost/@Model.Id" class="btn btn-primary">내용수정</a>
+    }
+</div>

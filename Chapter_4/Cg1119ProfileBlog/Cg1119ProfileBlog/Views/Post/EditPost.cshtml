@@ -1,6 +1,6 @@
 @model Cg1119ProfileBlog.Models.Post
 
-<form asp-action="AddPost" method="post">
+<form asp-action="EditPost" method="post">
     @Html.AntiForgeryToken()
     <div class="form-group">
         <label asp-for="Title" class="control-label"></label>
@@ -16,5 +16,3 @@
         <input type="submit" value="Submit" class="btn btn-primary"/>
     </div>
 </form>
-
-

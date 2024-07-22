@@ -37,7 +37,13 @@ document.addEventListener('DOMContentLoaded',
         changeThemeIcon(localStorage.getItem('theme'));
     });
 });
-
+// 로그인 확인
+function login(event) {
+    event.preventDefault();
+    if(confirm('로그인 이후 사용 가능한 기능입니다. 로그인 하시겠습니까?')) {
+        window.location.href = event.currentTarget.href;
+    }
+}
 // 로그아웃
 function logout(event){
     event.preventDefault();
