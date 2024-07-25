@@ -42,10 +42,10 @@
 - **Chapter 3** - ✅
 
   Dependency Injection and Thread-Safety, HTTP Fundamentals, AntiForgeryToken
-- **Chatper 4** - ✈️
+- **Chatper 4** - ✅
 
   Mid-term Project  
-- **Chapter 5**
+- **Chapter 5** - ✈️
   
   Basics of Docker and Deployment ASP.NET Project via Docker
 - **Chapter 6**
